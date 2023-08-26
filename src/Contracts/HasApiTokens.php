@@ -11,7 +11,7 @@ interface HasApiTokens
      *
      * @return MorphMany
      */
-    public function tokens();
+    public function tokens(): MorphMany;
 
     /**
      * Determine if the current API token has a given scope.
